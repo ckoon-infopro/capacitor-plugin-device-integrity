@@ -20,4 +20,10 @@ public class IRootPlugin: CAPPlugin, CAPBridgedPlugin {
             "value": implementation.echo(value)
         ])
     }
+
+    @objc func isRooted(_ call: CAPPluginCall) {
+        call.resolve([
+            "value": implementation.isRooted()
+        ])
+    }
 }

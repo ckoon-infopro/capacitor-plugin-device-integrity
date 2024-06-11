@@ -5,4 +5,9 @@ import Foundation
         print(value)
         return value
     }
+
+    @objc public func isRooted() -> Bool {
+        print('isRooted')
+        return true
+    }
 }
