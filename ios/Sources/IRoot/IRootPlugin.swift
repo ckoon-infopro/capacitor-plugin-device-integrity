@@ -10,7 +10,8 @@ public class IRootPlugin: CAPPlugin, CAPBridgedPlugin {
     public let identifier = "IRootPlugin"
     public let jsName = "IRoot"
     public let pluginMethods: [CAPPluginMethod] = [
-        CAPPluginMethod(name: "echo", returnType: CAPPluginReturnPromise)
+        CAPPluginMethod(name: "echo", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "isRooted", returnType: CAPPluginReturnPromise)
     ]
     private let implementation = IRoot()
 
@@ -25,5 +26,6 @@ public class IRootPlugin: CAPPlugin, CAPBridgedPlugin {
         call.resolve([
             "value": implementation.isRooted()
         ])
+        
     }
 }

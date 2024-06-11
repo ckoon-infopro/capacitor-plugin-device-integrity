@@ -7,7 +7,7 @@ import Foundation
     }
 
     @objc public func isRooted() -> Bool {
-        print('isRooted')
+        print("isRooted")
         return true
     }
 }
