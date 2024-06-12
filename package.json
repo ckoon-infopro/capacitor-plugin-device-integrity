@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorPluginIRoot.podspec"
+    "CapacitorPluginIroot.podspec"
   ],
   "author": "",
   "license": "MIT",
