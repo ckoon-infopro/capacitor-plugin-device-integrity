@@ -71,7 +71,6 @@ enum JailbrokenChecks: Int {
                 
         print("1. Simulator")
         #if targetEnvironment(simulator)
-            print("Simulator");
             return true;
         #endif
 
