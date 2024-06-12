@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-iroot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This plugin detects root access on Android and identifies jailbreak status on iOS, offering easy integration with Capacitor apps. It is lightweight and efficient, ensuring minimal impact on performance.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
