@@ -192,7 +192,7 @@ enum JailbrokenChecks: Int {
         // Inaccessible Files Check
         if inaccessibleFilesCheck() != NOTJAIL {
             // Jailbroken
-            motzart += 2;
+            motzart += 3;
         }
 
         // Plist Check
